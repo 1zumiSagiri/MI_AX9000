@@ -27,16 +27,20 @@ In container list, create a container with the following settings:
     1. Command & logging - Console: `-i -t`
     2. Volumes - container -> host: `/mnt` -> `/`
     3. Network - Network mode: `host`
-    > otherwise won't detect router network devices
+    > For HomeKit users, step 3 is required.
 
 Then click `Create` button and wait for the container to start.
 
 Optional:
 install [HASC](https://hacs.xyz) for manage custom components and add-ons(?)
 `wget -O - https://install.hacs.xyz | bash -`
+![image](https://github.com/1zumiSagiri/MI_AX9000/blob/main/IMG/hasc.png)
 
 
 ## 3. Enter home-assistant, setup and configure network
 ![image](https://github.com/1zumiSagiri/MI_AX900/blob/main/IMG/ha_main.png)
 
-After create account and enter main page of home-assistance, go to container console of HA
+After create account and enter main page of home-assistance
+![image](https://github.com/1zumiSagiri/MI_AX9000/blob/main/IMG/ha_main2.png)
+
+![image](https://github.com/1zumiSagiri/MI_AX9000/blob/main/IMG/ha_network.png)
