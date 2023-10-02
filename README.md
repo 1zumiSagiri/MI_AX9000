@@ -14,6 +14,11 @@ May include: ssh,docker,[home-assistant](https://www.home-assistant.io/), Alexa 
 ## 1. Install dev firmware, install drive and ssh
 ![image](https://github.com/1zumiSagiri/MI_AX900/blob/main/IMG/router.jpg)
 
+https://github.com/1zumiSagiri/ax9000_tool
+
+Backup MIAX9000 bdata(located in /dev/mtd18)
+>nanddump -f /tmp/bdata_mtd18.img /dev/mtd18
+
 ## 2. Create container
 ![image](https://github.com/1zumiSagiri/MI_AX900/blob/main/IMG/potainer.png)
 In container list, create a container with the following settings:
