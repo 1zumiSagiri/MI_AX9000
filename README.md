@@ -4,7 +4,7 @@
 Guide for configure MI AX9000 router by Docker inside dev firmware.
 
 Requirement:
-1. [MI AX9000 router](https://www.mi.com/global/product/mi-router-ax9000/)
+1. [MI AX9000 router](https://openwrt.org/toh/xiaomi/ax9000)
 2. 32GB USB3.0 drive (This blog use 256GB SAMSUNG PM961 with USB3.0 SSD enclosure)
 
 May include: ssh,docker,[home-assistant](https://www.home-assistant.io/), Alexa Plug, Google Home,etc.
@@ -26,8 +26,17 @@ In container list, create a container with the following settings:
 5. Advance container settings: 
     1. Command & logging - Console: `-i -t`
     2. Volumes - container -> host: `/mnt` -> `/`
+    3. Network - Network mode: `host`
+    > otherwise won't detect router network devices
 
 Then click `Create` button and wait for the container to start.
 
-## 3. Enter home-assistant
+Optional:
+install [HASC](https://hacs.xyz) for manage custom components and add-ons(?)
+`wget -O - https://install.hacs.xyz | bash -`
+
+
+## 3. Enter home-assistant, setup and configure network
 ![image](https://github.com/1zumiSagiri/MI_AX900/blob/main/IMG/ha_main.png)
+
+After create account and enter main page of home-assistance, go to container console of HA
