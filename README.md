@@ -1,7 +1,7 @@
 # Configure MI_AX9000
 ***Still on working !!!***
 
-Guide for configure MI AX9000 router by Docker inside dev firmware.
+Configure MI AX9000 router by Docker inside dev firmware.
 
 Requirement:
 1. [MI AX9000 router](https://openwrt.org/toh/xiaomi/ax9000)
