@@ -45,7 +45,13 @@ install [HASC](https://hacs.xyz) for manage custom components and add-ons(?)
 ## 3. Enter home-assistant, setup and configure network
 ![image](https://github.com/1zumiSagiri/MI_AX900/blob/main/IMG/ha_main.png)
 
-After create account and enter main page of home-assistance
-![image](https://github.com/1zumiSagiri/MI_AX9000/blob/main/IMG/ha_main2.png)
+HomeKit user:
+After create account and enter main page of home-assistance,
+Go to `Settings` -> `System` -> `Network` and turn on br-lan so HomeKit can find your docker.
 
 ![image](https://github.com/1zumiSagiri/MI_AX9000/blob/main/IMG/ha_network.png)
+
+Follow the steps to add HomeKit Bridge and your device.
+
+![image](https://github.com/1zumiSagiri/MI_AX9000/blob/main/IMG/wiz.png)
+![image](https://github.com/1zumiSagiri/MI_AX9000/blob/main/IMG/homekit.png)
